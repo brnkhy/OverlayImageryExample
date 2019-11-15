@@ -1,4 +1,4 @@
-# OverlayImageryExample
+# Mapbox Unity SDK Overlay Imagery Examples
 
 It's a demo project showing how to use a second set of imagery on top of the base as an overlay in Mapbox Unity SDK.
 
