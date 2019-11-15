@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEngine.Experimental.VFX;
 using UnityEngine.Networking;
 
-public class AerisOverlayImagery : MonoBehaviour
+public class OtherOverlayImagery : MonoBehaviour
 {
 	public AbstractMap Map;
 
@@ -18,6 +18,7 @@ public class AerisOverlayImagery : MonoBehaviour
 	private static readonly int OverlayImage = Shader.PropertyToID(OverlayImageTextureName);
 
 	//This script won't work without a proper url
+	//I used aeris weather api link as an example
 	//I marked where key goes in sample url below but I highly suggest not using that and creating a full url using AerisWeather online map creation tools
 	[NonSerialized] private string _url = "https://maps.aerisapi.com/---KEY GOES HERE---/fsatellite/{0}/{1}/{2}/current.png";
 

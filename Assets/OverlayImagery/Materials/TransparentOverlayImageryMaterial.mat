@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AerisOverlayImageryMaterial 1
+  m_Name: TransparentOverlayImageryMaterial 1
   m_Shader: {fileID: -6465566751694194690, guid: 3bbd0d4a50cc59740b8039d58d02eefd,
     type: 3}
   m_ShaderKeywords: 

@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 1280331742}
   - component: {fileID: 1280331741}
   m_Layer: 0
-  m_Name: AerisOverlayImagery
+  m_Name: ThirdPartyOverlayImagery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
