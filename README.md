@@ -2,7 +2,14 @@
 
 It's a demo project showing how to use a second set of imagery on top of the base as an overlay in Mapbox Unity SDK.
 
-I created two demos, one using a Mapbox map (`Streets` by default) and second using a third party api (I used AerisWeather api as example url).
+I created two demos, one using a Mapbox map (`Streets` by default) and second using a third party api (I used AerisWeather api as example url).    
+Only change has done to Mapbox Unity SDK code is in `UnityTile.cs` file;
+```
+//MeshRenderer.sharedMaterial.mainTexture = _rasterData;
+MeshRenderer.sharedMaterial.SetTexture("_MainTexture", _rasterData);
+```
+
+**Scenes**    
 
 ![mapbox demo scene](https://i.imgur.com/9gQNwAW.jpg)    
 
